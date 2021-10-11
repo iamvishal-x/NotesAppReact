@@ -12,15 +12,15 @@ const useStyles = makeStyles({
   avatar: {
     backgroundColor: (propName) => {
       if (propName.category === "work") {
-        return blue[700];
+        return blue[700] + "!important";
       }
       if (propName.category === "money") {
-        return green[500];
+        return green[500] + "!important";
       }
       if (propName.category === "todos") {
-        return pink[500];
+        return pink[500] + "!important";
       }
-      return yellow[500];
+      return yellow[500] + "!important";
     },
   },
   highlight: {

@@ -6,13 +6,13 @@ import { purple } from "@mui/material/colors";
 import Layout from "./components/Layout";
 
 const theme = createTheme({
-  palette: {
-    // primary: {
-    //   main: "#fefefe",
-    // },
-    secondary: purple, //auto imported from mui colors,
-    //  search colors/palette in mui for more
-  },
+  // palette: {
+  //   primary: {
+  //     main: "#fefefe",
+  //   },
+  //   secondary: purple, //auto imported from mui colors,
+  //    search colors/palette in mui for more
+  // },
   typography: {
     fontFamily: "Ubuntu",
     fontWeightLight: 300,
